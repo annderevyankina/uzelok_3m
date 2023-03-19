@@ -1,18 +1,6 @@
 @font-face {
-    font-family: "BodoniItalic";
-    src: url("./fonts/BodoniItalic/BodoniItalic.woff") format("woff"),
-    font-style: italic;
-    font-weight: 400;
-}
-@font-face {
-    font-family: "BodoniBoldItalic";
-    src: url("./fonts/BodoniBoldItalic/BodoniBoldItalic.woff") format("woff"),
-    font-style: italic;
-    font-weight: 700;
-}
-@font-face {
-    font-family: "CoolveticaBook";
-    src: url("./fonts/CoolveticaBook/CoolveticaBook.woff") format("woff"),
+    font-family: "CoolveticaBk-Regular";
+    src: url("../fonts/CoolveticaBk-Regular/CoolveticaBk-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
 }
