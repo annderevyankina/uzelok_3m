@@ -131,8 +131,8 @@ h6 {
   width: 37.1vw;
   color: #7282D4;
   line-height: 3vw;
-  margin-left: -2.5vw;
-  padding-top: 5.8vw;
+  margin-left: -1.9vw;
+  padding-top: 5.9vw;
 }
 h6 span {
   color: #E36A99;
@@ -695,11 +695,13 @@ h7 {
   width: 100vw;
   height: 100vh;
   padding: 10% 45%;
+  position: absolute;
+  top: 127vw;
+  left: -17vw;
 }
 .container {
   width: 100%;
   transform: rotate(335deg);
-  margin: 8.5vw;
 }
 .eye {
   position: relative;
