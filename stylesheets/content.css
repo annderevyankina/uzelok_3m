@@ -684,7 +684,7 @@ h7 {
   z-index: 0;
 }
 .move-area{/*normally use body*/
-  width: 98vw;
+  width: 96vw;
   height: 84vh;
   position: absolute;
   top: 130vw;
