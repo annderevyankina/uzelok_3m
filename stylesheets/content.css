@@ -62,18 +62,23 @@ body {
   position: relative;
   background: url("../images/1920/slon1920.png");
   background-size: cover;
+  position: relative;
+  display: flex;
 }
 .grid-item7 {
   grid-column: 5 / 9;
   grid-row: 16 / 22;
   background-color: #15181D;
+  position: relative;
 }
 .grid-item8 {
   grid-column: 1 / 9;
   grid-row: 22 / 24;
   background-color: #FCEEB6;
   border: 0.8vw solid black;
-
+  position: relative;
+  display: flex;
+  overflow: hidden;
 }
 h1 {
   font-family: 'CoolveticaBk-Regular';
@@ -139,6 +144,18 @@ p {
   font-weight: 400;
   display: inline-block;
   line-height: 2.9vw;
+}
+h7 {
+  font-family: 'Bodoni BoldItalic Cyrillic', arial;
+  font-size: 3.2vw;
+  font-style: italic;
+  display: inline;
+  width: 38vw;
+  color: white;
+  line-height: 2.8vw;
+  position: absolute;
+  top: 4.6vw;
+  left: 3vw;
 }
 .pod1 {
   width: 18.9vw;
@@ -296,9 +313,9 @@ p {
   left: -0.1vw;
 }
 #q2 {
-  top: 0;
-  left: 11.65vw;
-  width: 12.35vw;
+  top: 12.7vw;
+  left: -0.1vw;
+  width: 11.6vw;
 }
 #q3 {
   top: 12.7vw;
@@ -341,6 +358,48 @@ p {
   left: 48.4vw;
   width: 12vw;
   height: 12.53vw;
+}
+#pz1 {
+  top: 25.4vw;
+  left: -0.5vw;
+  width: 12vw;
+  height: 12.53vw;
+  display: none;
+}
+#pz2 {
+  top: 12.7vw;
+  left: 24.23vw;
+  width: 11.75vw;
+  height: 12.53vw;
+  display: none;
+}
+#pz3 {
+  top: 12.7vw;
+  left: 48.4vw;
+  width: 12vw;
+  height: 12.53vw;
+  display: none;
+}
+#pz4 {
+  top: 0vw;
+  left: 11.7vw;
+  width: 12.3vw;
+  height: 12.5vw;
+  display: none;
+}
+#pz5 {
+  top: 25.4vw;
+  left: 36.2vw;
+  width: 12vw;
+  height: 12.53vw;
+  display: none;
+}
+#pz6 {
+  top: 0;
+  left: 24.23vw;
+  width: 11.75vw;
+  height: 12.5vw;
+  display: none;
 }
 .polosa {
   width: 38.3vw;
@@ -631,4 +690,168 @@ p {
   left: 11vw;
   z-index: 0;
   display: none;
+}
+.move-area{/*normally use body*/
+  width: 100vw;
+  height: 100vh;
+  padding: 10% 45%;
+}
+.container {
+  width: 100%;
+  transform: rotate(335deg);
+  margin: 8.5vw;
+}
+.eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  width: 3.3vw;
+  height: 3.3vw;
+  background-color: white;
+  border: 0.26vw solid black;
+  margin-right: 0.3vw;
+}
+.eye::after { /*pupil*/
+  position: absolute;
+  bottom: 1.4vw;
+  right: 0.5vw;
+  width: 2vw;
+  height: 2vw;
+  background: #000;
+  border-radius: 50%;
+  content: " ";1.9
+}
+#pl1, #pl2, #pl3 {
+  font-family: 'CoolveticaBk-Regular';
+  font-size: 2vw;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 2vw;
+  background-color: #FCEEB6;
+  border: 0.26vw solid black;
+  position: absolute;
+  padding: 1vw 2.2vw;
+}
+#pl1 {
+  top: 151.1vw;
+  left: 44.8vw;
+  width: 14.5vw;
+}
+#pl2 {
+  top: 167.2vw;
+  left: 6.5vw;
+  width: 12.9vw;
+  background-color: #FCAFCD;
+}
+#pl3 {
+  top: 177vw;
+  left: 35.6vw;
+  width: 6.1vw;
+  background-color: #FCAFCD;
+}
+.pl4 {
+  width: 21vw;
+  height: 6.7vw;
+  background-color: #FCEEB6;
+  position: absolute;
+  top: 184.2vw;
+  left: 53.9vw;
+}
+.pl4 p{
+  width: 13.5vw;
+  font-family: 'CoolveticaBk-Regular';
+  font-size: 2vw;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 2vw;
+  padding: 1.3vw 0 1.3vw 2.2vw;
+}
+.pl4 img {
+  width: 2.6vw;
+  padding: 1vw 0.5vw;
+}
+.grid-item7 img {
+  width: 9.6vw;
+  height: 6.2vw;
+  padding: 45.3vw 0 0 36.2vw;
+}
+.grid-item8 p {
+  width: 30.7vw;
+  font-family: 'Bodoni BoldItalic Cyrillic', arial;
+  font-size: 2.6vw;
+  font-style: italic;
+  display: inline-block;
+  padding-top: 1vw;
+}
+.grid-item8 h5 {
+  padding: 0;
+  margin: 0;
+}
+.end {
+  width: 30.7vw;
+  height: 10.5vw;
+  padding: 2.9vw 0 0 3vw;
+}
+.logo {
+  width: 14vw;
+  height: 5.9vw;
+  padding: 5vw 4vw 0 46vw;
+}
+.st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+  width: 11vw;
+  height: 11vw;
+  position: absolute;
+  top: 6.5vw;
+  left: 66vw;
+  display: none;
+}
+.st1 {
+  top: 2vw;
+  left: 39vw;
+  transform: rotate(30deg);
+}
+.st2 {
+  top: 1vw;
+  left: 58vw;
+  transform: rotate(30deg);
+}
+.st3 {
+  top: 9vw;
+  left: 50vw;
+  transform: rotate(15deg);
+}
+.st4 {
+  top: 7vw;
+  left: 68vw;
+  transform: rotate(39deg);
+}
+.st5 {
+  top: 9vw;
+  left: 12vw;
+  transform: rotate(82deg);
+}
+.st6 {
+  top: 5vw;
+  left: 28vw;
+  transform: rotate(15deg);
+}
+.st7 {
+  top: -3vw;
+  left: 48vw;
+  transform: rotate(31deg);
+}
+.st8 {
+  top: -2vw;
+  left: 72vw;
+  transform: rotate(327deg);
+}
+.st9 {
+  top: -4.2vw;
+  left: 31vw;
+  transform: rotate(295deg);
+}
+.st10 {
+  top: 0.8vw;
+  left: 18vw;
+  transform: rotate(356deg);
 }
