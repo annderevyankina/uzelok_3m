@@ -855,3 +855,30 @@ h7 {
   left: 18vw;
   transform: rotate(356deg);
 }
+.pz1, .pz2, .pz3, .pz4, .pz5, .pz6 {
+  width: 11.7vw;
+  height: 12.4vw;
+  position: absolute;
+  top: 54.2vw;
+  left: 82.9vw;
+}
+.pz2 {
+  top: 107vw;
+  left: 51.3vw;
+}
+.pz3 {
+  top: 131.3vw;
+  left: 69vw;
+}
+.pz4 {
+  top: 159.3vw;
+  left: 56.7vw;
+}
+.pz5 {
+  top: 176.1vw;
+  left: 6.8vw;
+}
+.pz6 {
+  top: 197.5vw;
+  left: 39.2vw;
+}
