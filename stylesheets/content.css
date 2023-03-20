@@ -70,6 +70,7 @@ body {
   grid-row: 16 / 22;
   background-color: #15181D;
   position: relative;
+  overflow: hidden;
 }
 .grid-item8 {
   grid-column: 1 / 9;
@@ -304,18 +305,20 @@ h7 {
   margin-top: -46vw;
 }
 .grid-item2 img {
-  width: 11.6vw;
-  height: 12.5vw;
   position: absolute;
 }
 #q1 {
   top: 0;
-  left: -0.1vw;
+  left: -0.7vw;
+  width: 12.2vw;
+  height: 12.5vw;
 }
 #q2 {
   top: 12.7vw;
   left: -0.1vw;
   width: 11.6vw;
+  height: 12.5vw;
+
 }
 #q3 {
   top: 12.7vw;
@@ -359,46 +362,43 @@ h7 {
   width: 12vw;
   height: 12.53vw;
 }
-#pz1 {
+.pz1 {
   top: 25.4vw;
   left: -0.5vw;
   width: 12vw;
   height: 12.53vw;
-  display: none;
 }
-#pz2 {
+.pz2 {
   top: 12.7vw;
   left: 24.23vw;
   width: 11.75vw;
   height: 12.53vw;
-  display: none;
 }
-#pz3 {
+.pz3 {
   top: 12.7vw;
   left: 48.4vw;
   width: 12vw;
   height: 12.53vw;
-  display: none;
 }
-#pz4 {
+.pz4 {
   top: 0vw;
   left: 11.7vw;
   width: 12.3vw;
   height: 12.5vw;
-  display: none;
 }
-#pz5 {
+.pz5 {
   top: 25.4vw;
   left: 36.2vw;
   width: 12vw;
   height: 12.53vw;
-  display: none;
 }
-#pz6 {
+.pz6 {
   top: 0;
   left: 24.23vw;
   width: 11.75vw;
   height: 12.5vw;
+}
+.none {
   display: none;
 }
 .polosa {
@@ -666,14 +666,6 @@ h7 {
 .n3, .n8, .n10, .n14, .n17, .n22, .n25, .n30, .n32, .n37, .n41, .n45, .n47, .n49, .n54, .n57 {
   background-color: #9FAFFF;
 }
-#v3 {
-  width: 16.8vw;
-  height: 26.9vw;
-  position: absolute;
-  top: 8vw;
-  left: 2.5vw;
-  display: none;
-}
 #v1 {
   width: 15.4vw;
   height: 15.7vw;
@@ -775,7 +767,9 @@ h7 {
 .grid-item7 img {
   width: 9.6vw;
   height: 6.2vw;
-  padding: 45.3vw 0 0 36.2vw;
+  position: absolute;
+  top: 45.3vw;
+  left: 36.2vw;
 }
 .grid-item8 p {
   width: 30.7vw;
@@ -857,30 +851,30 @@ h7 {
   left: 18vw;
   transform: rotate(356deg);
 }
-.pz1, .pz2, .pz3, .pz4, .pz5, .pz6 {
+#pz1, #pz2, #pz3, #pz4, #pz5, #pz6 {
   width: 11.7vw;
   height: 12.4vw;
   position: absolute;
-  top: 54.2vw;
+  top: 54.1vw;
   left: 82.9vw;
 }
-.pz2 {
+#pz2 {
   top: 107vw;
   left: 51.3vw;
 }
-.pz3 {
+#pz3 {
   top: 131.3vw;
   left: 69vw;
 }
-.pz4 {
+#pz4 {
   top: 159.3vw;
   left: 56.7vw;
 }
-.pz5 {
+#pz5 {
   top: 176.1vw;
   left: 6.8vw;
 }
-.pz6 {
+#pz6 {
   top: 197.5vw;
   left: 39.2vw;
 }

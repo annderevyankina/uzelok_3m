@@ -6,7 +6,11 @@
     <title>Интерактивный плакат</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <script src="javascripts/jquery-3.6.4.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
     <script src="javascripts/eye.js" charset="utf-8"></script>
+    <script src="javascripts/puzzle.js" charset="utf-8"></script>
+    <script src="javascripts/draw.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="grid-container">
@@ -63,37 +67,39 @@
         <img id="q7" src="images/1920/q7-1920.png" alt="">
         <img id="q8" src="images/1920/q8-1920.png" alt="">
         <img id="q9" src="images/1920/q9-1920.png" alt="">
-        <img id="pz1" src="images/1920/pz1.png" alt="">
-        <img id="pz2" src="images/1920/pz2.png" alt="">
-        <img id="pz3" src="images/1920/pz3.png" alt="">
-        <img id="pz4" src="images/1920/pz4.png" alt="">
-        <img id="pz5" src="images/1920/pz5.png" alt="">
-        <img id="pz6" src="images/1920/pz6.png" alt="">
+        <img class="pz1 none" src="images/1920/pz1.png" alt="">
+        <img class="pz2 none" src="images/1920/pz2.png" alt="">
+        <img class="pz3 none" src="images/1920/pz3.png" alt="">
+        <img class="pz4 none" src="images/1920/pz4.png" alt="">
+        <img class="pz5 none" src="images/1920/pz5.png" alt="">
+        <img class="pz6 none" src="images/1920/pz6.png" alt="">
       </div>
       <!-- 3 БЛОК -->
       <div class="grid-item3">
-        <div class="polosa o"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
-        <div class="polosa"></div>
+        <div class="poloski">
+          <div class="polosa o"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+          <div class="polosa"></div>
+        </div>
       </div>
       <!-- 4 БЛОК -->
       <div class="grid-item4">
@@ -167,7 +173,6 @@
         <div class="pod2">
           <p id="p2">2.</p>
           <p>перетащи <br> предмет сюда</p>
-          <img id="v3" src="images/vertushkaan1920.png" alt="">
           <img id="v1" src="images/vert-top1920.png" alt="">
           <img id="v2" src="images/vert-down1920.png" alt="">
         </div>
@@ -179,6 +184,7 @@
       <!-- 7 БЛОК -->
       <div class="grid-item7">
         <img src="images/melki.png" alt="">
+        <main></main>
       </div>
       <!-- 8 БЛОК -->
       <div class="grid-item8">
@@ -206,12 +212,12 @@
         <p>Нарисуй своего слоника!</p>
         <img src="images/arrow.png" alt="">
       </div>
-      <img class="pz1" src="images/1920/pz1.png" alt="">
-      <img class="pz2" src="images/1920/pz2.png" alt="">
-      <img class="pz3" src="images/1920/pz3.png" alt="">
-      <img class="pz4" src="images/1920/pz4.png" alt="">
-      <img class="pz5" src="images/1920/pz5.png" alt="">
-      <img class="pz6" src="images/1920/pz6.png" alt="">
+      <img id="pz1" src="images/1920/pz1.png" alt="">
+      <img id="pz2" src="images/1920/pz2.png" alt="">
+      <img id="pz3" src="images/1920/pz3.png" alt="">
+      <img id="pz4" src="images/1920/pz4.png" alt="">
+      <img id="pz5" src="images/1920/pz5.png" alt="">
+      <img id="pz6" src="images/1920/pz6.png" alt="">
       <section class="move-area">
         <div class='container'>
           <div class='eye'></div>
