@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $( function() {
+  $(function() {
     $( "#pz1" ).draggable();
     $( ".pz1" ).droppable({
       drop: function( event, ui ) {
@@ -9,5 +9,5 @@ $(document).ready(function(){
           .addClass("none");
       }
     });
-  } );
-})
+  });
+});

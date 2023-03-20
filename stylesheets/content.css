@@ -666,34 +666,36 @@ h7 {
 .n3, .n8, .n10, .n14, .n17, .n22, .n25, .n30, .n32, .n37, .n41, .n45, .n47, .n49, .n54, .n57 {
   background-color: #9FAFFF;
 }
-#v1 {
+.v1 {
   width: 15.4vw;
   height: 15.7vw;
   position: absolute;
   top: 8.3vw;
   left: 3.2vw;
   z-index: 1;
-  display: none;
+  animation: vert 1s ease-out 1 normal;
+  animation-play-state: paused;
 }
-#v2 {
+.v2 {
   height: 18.3vw;
   position: absolute;
   top: 16vw;
   left: 11vw;
   z-index: 0;
-  display: none;
 }
 .move-area{/*normally use body*/
-  width: 100vw;
-  height: 100vh;
-  padding: 10% 45%;
+  width: 98vw;
+  height: 84vh;
   position: absolute;
-  top: 127vw;
-  left: -17vw;
+  top: 130vw;
+  left: 1vw;
 }
 .container {
-  width: 100%;
+  position: absolute;
+  top: 26.5vw;
+  width: 9%;
   transform: rotate(335deg);
+  left: 31vw;
 }
 .eye {
   position: relative;
@@ -791,7 +793,7 @@ h7 {
 .logo {
   width: 14vw;
   height: 5.9vw;
-  padding: 5vw 4vw 0 46vw;
+  padding: 5vw 4vw 0 45.7vw;
 }
 .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
   width: 11vw;
@@ -799,7 +801,7 @@ h7 {
   position: absolute;
   top: 6.5vw;
   left: 66vw;
-  display: none;
+  /* display: none; */
 }
 .st1 {
   top: 2vw;
@@ -877,4 +879,26 @@ h7 {
 #pz6 {
   top: 197.5vw;
   left: 39.2vw;
+}
+.poloski {
+  opacity: 100%;
+  transition: all .9s;
+}
+.op {
+  opacity: 0%;
+}
+#v3 {
+  width: 20vw;
+  height: 20vw;
+  transform: rotate(-55deg);
+  position: absolute;
+  top: 120vw;
+  left: 26vw;
+  z-index: 0;
+}
+@keyframes vert {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(90deg);}
+  75% {transform: rotate(-15deg);}
+  100% {transform: rotate(0deg);}
 }
