@@ -673,7 +673,7 @@ h7 {
   top: 8.3vw;
   left: 3.2vw;
   z-index: 1;
-  animation: vert 1s ease-out 1 normal;
+  animation: vert 2s ease-out 2 alternate-reverse;
   animation-play-state: paused;
 }
 .v2 {
@@ -865,12 +865,12 @@ h7 {
   left: 51.3vw;
 }
 #pz3 {
-  top: 131.3vw;
-  left: 69vw;
+  top: 124vw;
+  left: 68vw;
 }
 #pz4 {
-  top: 159.3vw;
-  left: 56.7vw;
+  top: 188.3vw;
+  left: 35.65vw;
 }
 #pz5 {
   top: 176.1vw;
@@ -878,7 +878,7 @@ h7 {
 }
 #pz6 {
   top: 197.5vw;
-  left: 39.2vw;
+  left: 61.2vw;
 }
 .poloski {
   opacity: 100%;

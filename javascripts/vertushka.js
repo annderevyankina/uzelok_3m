@@ -9,12 +9,13 @@ $(document).ready(function(){
           .addClass("none");
         $(".v1")
           .css("animation-play-state", "running");
+        $(".pod1, .pod2")
+          .addClass("none");
       }
     });
   });
 
   $(".v1").click(function(){
-		$(this)
-    .css("animation-play-state", "running");
+		$(this).css("animation-play-state", "running");
 	});
 });
