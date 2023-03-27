@@ -1,7 +1,4 @@
 $(document).ready(function(){
-	// $(".poloski").click(function(){
-	// 	$(this).addClass("op");
-	// });
 	$(function () {
 	let count = 0;
 	$('.poloski').click(function () {
@@ -14,5 +11,4 @@ $(document).ready(function(){
 		}
 	});
 	});
-
 });

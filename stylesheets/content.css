@@ -207,16 +207,21 @@ h7 {
   top: 33vw;
   left: 89vw;
   z-index: 2;
+  offset-path: path('M13.0003 344C-26.9999 210 29.0003 -38 195 6.00005');
+  animation: ro 4s ease-in-out infinite alternate-reverse;
 }
 .p {
   background: #FCAFCD;
   top: -4vw;
   left: 64vw;
+  offset-path: path('M1 25C95 97.6667 310.2 187.8 419 -33');
 }
 .b {
   background: #9FAFFF;
-  top: 22vw;
-  left: 33vw;
+  top: 24vw;
+  left: 35vw;
+  offset-path: path('M379 1.99999C283 -4.00001 73 14.4 1 136');
+  animation: ro 4s ease-in infinite alternate-reverse;
 }
 .square {
   width: 7vw;
@@ -225,15 +230,19 @@ h7 {
   background: #FCEEB6;
   position: absolute;
   top: 14vw;
-  left: 14vw;
+  left: 6vw;
   z-index: 2;
   transform: rotate(15deg);
+  offset-path: path('M1 16C35.6667 46.6667 123.8 104 199 88C293 68 389 -70 597 48');
+  animation: sq 7s ease-in infinite alternate-reverse;
 }
 .pink {
   background: #FCAFCD;
   top: 38.3vw;
   left: 51vw;
   transform: rotate(-20deg);
+  offset-path: path('M449 32C365 -6.00001 157.8 -40.4 1 126');
+  animation: sq 3s ease-in infinite alternate-reverse;
 }
 .grid-item1 img{
   position: absolute;
@@ -242,15 +251,19 @@ h7 {
 .star img {
   width: 11vw;
   height: 11vw;
+  offset-path: path('M619 13C551.667 -9.00001 400.6 -16.2 335 131C253 315 25 229 1 207');
+  animation: st 8s ease-in-out infinite alternate-reverse;
 }
 .pink2 img {
   top: 36vw;
-  left: -3vw;
+  left: 3vw;
   transform: rotate(286deg);
+  offset-path: path('M72 355C125.333 279 174.8 101.8 -54 1');
+  animation: st 3s linear infinite alternate-reverse;
 }
 .blue img {
-  top: 11vw;
-  left: 74vw;
+  top: 8vw;
+  left: 70vw;
   transform: rotate(286deg);
 }
 .sun img {
@@ -732,18 +745,22 @@ h7 {
   top: 151.1vw;
   left: 44.8vw;
   width: 14.5vw;
+  animation: pl1 .7s ease-out infinite alternate-reverse;
 }
 #pl2 {
   top: 167.2vw;
   left: 6.5vw;
   width: 12.9vw;
   background-color: #FCAFCD;
+  animation: pl2 .7s ease-out infinite alternate-reverse;
+  animation-delay: .7s;
 }
 #pl3 {
   top: 177vw;
   left: 35.6vw;
   width: 6.1vw;
   background-color: #FCAFCD;
+  animation: pl3 .7s ease-out infinite alternate-reverse;
 }
 .pl4 {
   width: 21vw;
@@ -752,6 +769,7 @@ h7 {
   position: absolute;
   top: 184.2vw;
   left: 53.9vw;
+  animation: pl4 .7s ease-in infinite alternate-reverse;
 }
 .pl4 p{
   width: 13.5vw;
@@ -859,6 +877,7 @@ h7 {
   position: absolute;
   top: 54.1vw;
   left: 82.9vw;
+  z-index: 4;
 }
 #pz2 {
   top: 107vw;
@@ -901,4 +920,33 @@ h7 {
   50% {transform: rotate(90deg);}
   75% {transform: rotate(-15deg);}
   100% {transform: rotate(0deg);}
+}
+@keyframes pl1 {
+  0% {left: 44.8vw;}
+  100% {left: 45.8vw;}
+}
+@keyframes pl2 {
+  0% {left: 6.5vw;}
+  100% {left: 7.5vw;}
+}
+@keyframes pl3 {
+  0% {left: 35.6vw;}
+  100% {left: 34.6vw;}
+}
+@keyframes pl4 {
+  0% {left: 53.9vw;}
+  100% {left: 54.9vw;}
+}
+@keyframes sq {
+  50% {transform: rotate(60deg);}
+  100% {offset-distance: 100%; transform: rotate(90deg);}
+}
+@keyframes sqp {
+  100% {offset-distance: 100%;}
+}
+@keyframes ro {
+  100% {offset-distance: 100%;}
+}
+@keyframes st {
+  100% {offset-distance: 100%;}
 }
