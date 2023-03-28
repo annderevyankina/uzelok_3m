@@ -262,25 +262,35 @@ h7 {
   left: 70vw;
   transform: rotate(286deg);
 }
-.sun img {
+.sun  {
   width: 19.3vw;
-  height: 8.7vw;
+  height: 9vw;
+  position: absolute;
+  z-index: 2;
   top: 4vw;
   left: 24.2vw;
+  background: url('../images/1920/sun1920.png');
+  background-size: contain;
 }
-.girls img {
-  width: 52.7vw;
-  height: 8.7vw;
-  position: absolute;
+.girls {
+  width: 54vw;
+  height: 9.5vw;
   top: 18vw;
   left: 3.1vw;
+  position: absolute;
+  z-index: 2;
+  background: url('../images/1920/girls1920.png');
+  background-size: cover;
 }
-.alarm img {
+.alarm {
   width: 29.3vw;
-  height: 8.7vw;
+  height: 9.1vw;
   position: absolute;
   top: 31.2vw;
   left: 58.9vw;
+  z-index: 2;
+  background: url('../images/1920/alarm1920.png');
+  background-size: cover;
 }
 .line {
   border-bottom: 0.26vw solid white;

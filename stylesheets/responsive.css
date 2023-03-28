@@ -55,17 +55,17 @@
     margin-left: 2.9vw;
   }
   p {
-    font-size: 2.7vw;
+    font-size: 2.5vw;
   }
   h7 {
     width: 38vw;
     top: 4vw;
   }
   .pod1 {
-    margin: 3vw 0 0 1.7vw;
+    margin: 3vw 0 0 2.1vw;
   }
   .pod2 {
-    margin: 2vw 0 0 1.1vw;
+    margin: 1.2vw 0 0 1.5vw;
   }
   #t1-1 {
     margin: 2vw 3vw 0 10.5vw;
@@ -100,7 +100,7 @@
     width: 8.5vw;
     height: 8.5vw;
     border: 0.3vw solid black;
-    top: 34vw;
+    top: 37vw;
     left: 83vw;
   }
   .p {
@@ -110,7 +110,7 @@
   }
   .b {
     top: 24vw;
-    left: 43vw;
+    left: 45vw;
     offset-path: path('M197 7.00001C152.333 -5.66666 50.6 -4.59999 1 101');
     animation: ro 3s ease-in infinite alternate-reverse;
   }
@@ -118,43 +118,126 @@
     width: 7.4vw;
     height: 7.4vw;
     border: 0.3vw solid black;
+    top: 14vw;
+    left: 3vw;
   }
   .pink {
     top: 54vw;
     left: 37vw;
   }
   .star img {
-    width: 12.5vw;
-    height: 12.5vw;
+    width: 11vw;
+    height: 11vw;
     offset-path: path('M399 4.00004C358.333 -3.3333 263.4 -0.799965 209 68C154.6 136.8 47.6667 96.6667 1 68');
     animation: st 6s ease-in-out infinite alternate-reverse;
   }
   .pink2 img {
-    animation: st 5s linear infinite alternate-reverse;
+    top: 38vw;
+    left: 0vw;
+    offset-path: path('M1 1C54.3333 3.66667 161 56.2 161 245');
+    animation: st 3s linear infinite alternate-reverse;
   }
   .blue img {
     top: 12vw;
     left: 66vw;
   }
-  .sun img {
-    width: 22.3vw;
-    height: 9.7vw;
+  .sun  {
+    width: 22.7vw;
+    height: 10.2vw;
     top: 3vw;
     left: 32.8vw;
     background: url('../images/1280/sun1280.png');
+    background-size: contain;
   }
-  .girls img {
-    width: 67.5vw;
-    height: 9.7vw;
-    top: 16.5vw;
-    left: 26.1vw;
+  .girls {
+    width: 66.1vw;
+    height: 10vw;
+    top: 16vw;
+    left: 25.1vw;
     background: url('../images/1280/girls1280.png');
+    background-size: cover;
   }
-  .alarm img {
-    width: 37.6vw;
-    height: 9.7vw;
-    top: 42.2vw;
-    left: 40.5vw;
+  .alarm {
+    width: 38.3vw;
+    height: 10.3vw;
+    top: 42.6vw;
+    left: 40.9vw;
     background: url('../images/1280/alarm1280.png');
+    background-size: cover;
+  }
+  #v3 {
+    top: 132vw;
+  }
+  .move-area {
+    top: 140vw;
+  }
+  .grid-item7 img {
+    top: 37.7vw;
+  }
+  #pl1, #pl2, #pl3 {
+    font-size: 2.3vw;
+    line-height: 2.3vw;
+    border: 0.3vw solid black;
+    padding: 1vw 2.2vw;
+  }
+  #pl1 {
+    top: 156.1vw;
+    left: 44.8vw;
+    width: 16.5vw;
+  }
+  #pl2 {
+    width: 14.9vw;
+  }
+  #pl3 {
+    width: 7.1vw;
+    top: 180vw;
+  }
+  .pl4 {
+    width: 24vw;
+    height: 6.7vw;
+    top: 188.2vw;
+    left: 53.9vw;
+  }
+  .pl4 p{
+    font-size: 2.3vw;
+    line-height: 2.3vw;
+    width: 16.5vw;
+    padding: 1vw 0 1.3vw 2.2vw;
+  }
+  .pl4 img {
+    width: 2.6vw;
+    padding: 1vw 0.5vw;
+  }
+  #pz4 {
+    top: 191.3vw;
+    left: 35.65vw;
+  }
+  #pz6 {
+    top: 200.5vw;
+    left: 61.2vw;
+  }
+  #pz1 {
+    top: 63vw;
+  }
+  #pz2 {
+    top: 119vw;
+    left: 51.3vw;
+  }
+  #pz3 {
+    top: 142vw;
+    left: 68vw;
+  }
+  .move-area {
+    height: 79vh;
+  }
+  .grid-item8 p {
+    font-size: 2.3vw;
+  }
+  .grid-item6 {
+    background: url("../images/1280/slon1280.png");
+    background-size: cover;
+  }
+  .v2 {
+    top: 17vw;
   }
 }

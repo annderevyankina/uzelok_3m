@@ -15,7 +15,4 @@ $(document).ready(function(){
     });
   });
 
-  $(".v1").click(function(){
-		$(this).css("animation-play-state", "running");
-	});
 });

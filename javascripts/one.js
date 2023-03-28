@@ -23,10 +23,10 @@ $(document).ready(function(){
   $('.sun').click(function () {
     count += 1;
     if (count%2) {
-      $('#k1').addClass('op');
+      $(this).addClass('op');
     }
     else {
-      $('#k1').removeClass('op');
+      $(this).removeClass('op');
     }
   });
   });
@@ -36,10 +36,10 @@ $(document).ready(function(){
   $('.girls').click(function () {
     count += 1;
     if (count%2) {
-      $('#k2').addClass('op');
+      $(this).addClass('op');
     }
     else {
-      $('#k2').removeClass('op');
+      $(this).removeClass('op');
     }
   });
   });
@@ -49,10 +49,10 @@ $(document).ready(function(){
   $('.alarm').click(function () {
     count += 1;
     if (count%2) {
-      $('#k3').addClass('op');
+      $(this).addClass('op');
     }
     else {
-      $('#k3').removeClass('op');
+      $(this).removeClass('op');
     }
   });
   });

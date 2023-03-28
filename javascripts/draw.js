@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
   stroke(255, 229, 125);
-  strokeWeight(7);
+  strokeWeight(5);
   if (mouseIsPressed === true) {
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
