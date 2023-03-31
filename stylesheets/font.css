@@ -4,3 +4,15 @@
     font-style: normal;
     font-weight: 400;
 }
+@font-face {
+    font-family: "BodoniBoldItalic";
+    src: url("../fonts/BodoniBoldItalic/BodoniBoldItalic.woff") format("woff");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "BodoniItalic";
+    src: url("../fonts/BodoniItalic/BodoniItalic.woff") format("woff");
+    font-style: italic;
+    font-weight: 400;
+}

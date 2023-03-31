@@ -55,6 +55,7 @@ body {
   border: 0.8vw solid black;
   display: inline;
   position: relative;
+  overflow: hidden;
 }
 .grid-item6 {
   grid-column: 1 / 5;
@@ -88,7 +89,7 @@ h1 {
   z-index: 1;
 }
 h2 {
-  font-family: 'Bodoni Italic', arial;
+  font-family: 'BodoniItalic', arial;
   font-size: 9.1vw;
   font-style: italic;
   z-index: 1;
@@ -120,7 +121,7 @@ h5 {
   margin-left: 3vw;
 }
 h6 {
-  font-family: 'Bodoni BoldItalic Cyrillic', arial;
+  font-family: 'BodoniBoldItalic', arial;
   font-size: 3.2vw;
   font-style: italic;
   display: inline-block;
@@ -142,7 +143,7 @@ p {
   line-height: 2.9vw;
 }
 h7 {
-  font-family: 'Bodoni BoldItalic Cyrillic', arial;
+  font-family: 'BodoniBoldItalic', arial;
   font-size: 3.2vw;
   font-style: italic;
   display: inline;
@@ -799,7 +800,7 @@ h7 {
 }
 .grid-item8 p {
   width: 30.7vw;
-  font-family: 'Bodoni BoldItalic Cyrillic', arial;
+  font-family: 'BodoniBoldItalic', arial;
   font-size: 2.6vw;
   font-style: italic;
   display: inline-block;
