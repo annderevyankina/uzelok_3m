@@ -241,4 +241,129 @@
   .v2 {
     top: 17vw;
   }
+  .o {
+    margin-top: 1.1vw;
+  }
+  #q8 {
+    width: 12.2vw;
+  }
+  #q9 {
+    width: 12.2vw;
+    height: 12.6vw;
+  }
+  #q2, #q3, #q6 {
+    height: 12.6vw;
+  }
+  #q4, #q5 {
+    height: 12.6vw;
+  }
+  .seven {
+    margin-left: 48.5vw;
+  }
+  #q6, #q7 {
+    width: 12.3vw;
+  }
+  #q8, #q9 {
+    left: 48.8vw;
+  }
+
+}
+@media (max-width: 1024px) {
+  .grid-container {
+    height: 229vw;
+    gap: 1vw;
+    margin: 1vw 1vw;
+  }
+  .grid-item1 {
+    grid-row: 1 / 8;
+  }
+  .grid-item2 {
+    grid-row: 8 / 13;
+  }
+  .grid-item3 {
+    grid-row: 8 / 13;
+  }
+  h1 {
+    font-size: 9.7vw;
+  }
+  h2 {
+    font-size: 11.2vw;
+  }
+  .girls {
+    top: 19vw;
+  }
+  .alarm {
+    top: 53.6vw;
+  }
+  #t1-4 {
+    margin: -14.4vw 4.8vw 0 48.5vw;
+  }
+  #t1-3 {
+    margin-top: 2vw;
+  }
+  .girls {
+    width: 68.2vw;
+    height: 10.3vw;
+  }
+  .pink {
+    top: 66vw;
+    left: 29vw;
+  }
+  .round {
+      left: 86vw;
+      top: 48vw;
+  }
+  .p {
+    top: -8vw;
+    left: 64vw;
+  }
+  .b {
+    top: 30vw;
+    left: 45vw;
+  }
+  .pink2 img {
+    top: 49vw;
+  }
+  .o {
+    margin-top: -2vw;
+  }
+  .shar {
+    position: absolute;
+    top: 3vw;
+  }
+  pl1 {
+    top: 166.1vw;
+  }
+  #v3 {
+    top: 142vw;
+  }
+  .move-area {
+    top: 150vw;
+  }
+  #pl3 {
+    top: 196vw;
+  }
+  #pl2 {
+    top: 182.2vw;
+  }
+  #pz5 {
+    top: 192.1vw;
+  }
+  #pz4 {
+    top: 172.3vw;
+    left: 54.65vw;
+  }
+  #pz6 {
+    top: 214.5vw;
+    left: 44.2vw;
+  }
+  .pl4 {
+    top: 201.2vw;
+  }
+  .grid-item7 img {
+    top: 40.7vw;
+  }
+}
+@media (max-width: 768px) {
+
 }
