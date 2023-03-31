@@ -492,15 +492,16 @@
   }
   h4 {
     font-size: 6vw;
+    margin: .5vw 6vw 0 7vw;
   }
   #m {
-    margin-left: 3vw;
+    margin-left: 7.5vw;
   }
   #g {
-    margin-left: 0.7vw;
+    margin-left: 4.7vw;
   }
   #ya {
-    margin-top: 3.3vw;
+    margin-top: 2.8vw;
   }
   h5 {
     font-size: 3.3vw;
@@ -612,18 +613,54 @@
   .star img {
     width: 14.8vw;
     height: 14.8vw;
-    offset-path: path('M399 4.00004C358.333 -3.3333 263.4 -0.799965 209 68C154.6 136.8 47.6667 96.6667 1 68');
-    animation: st 6s ease-in-out infinite alternate-reverse;
   }
   .pink2 img {
     top: 73vw;
     left: -5vw;
-    offset-path: path('M1 1C54.3333 3.66667 161 56.2 161 245');
-    animation: st 3s linear infinite alternate-reverse;
   }
   .blue img {
     top: 16vw;
     left: 55vw;
+  }
+  #q1, #q2, #q3, #q4, #q5, #q6 {
+    width: 19.1vw;
+    height: 19.1vw;
+    position: absolute;
+  }
+  #q1 {
+    left: -.1vw;
+  }
+  .vert {
+    border-left: 0.45vw solid white;
+    height: 71.5vw;
+  }
+  .four {
+      margin-left: 18.5vw;
+      margin-top: -72vw;
+  }
+  .five {
+      margin-left: 38vw;
+      margin-top: -72vw;
+  }
+  .six {
+      margin-left: 58vw;
+      margin-top: -72.5vw;
+  }
+  .seven {
+      margin-left: 78.5vw;
+      margin-top: -70vw;
+  }
+  .three {
+    margin-top: 13vw;
+  }
+  .line {
+    margin-top: 17.5vw;
+  }
+  .two {
+    margin-top: 18vw;
+  }
+  .three {
+    margin-top: 1vw;
   }
 
 }
