@@ -811,4 +811,33 @@
     left: 44.8vw;
     width: 19vw;
   }
+  #pl2 {
+    top: 295.1vw;
+    left: 44.8vw;
+    width: 16.8vw;
+  }
+  #pl3 {
+    top: 313.1vw;
+    left: 44.8vw;
+    width: 8vw;
+  }
+  .pl4 {
+      top: 332.4vw;
+      height: 8vw;
+      width: 27vw;
+  }
+  .pl4 p {
+      width: 18.5vw;
+      font-size: 2.6vw;
+      line-height: 2.6vw;
+      padding: 1.3vw 0 1.3vw 2.2vw;
+  }
+  .pl4 img {
+    width: 3vw;
+    padding: -26vw 21.5vw;
+  }
+  .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+    width: 13vw;
+    height: 13vw;
+  }
 }
